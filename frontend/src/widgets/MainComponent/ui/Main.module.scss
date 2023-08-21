@@ -1,0 +1,49 @@
+.wrapper {
+    :global {
+        .ant-layout .ant-layout-sider-children {
+            background: linear-gradient(to right, #F67D37, #FF007E);
+            padding-top: 28%;
+        }
+
+        .ant-menu-dark.ant-menu-root.ant-menu-inline {
+            background: linear-gradient(to right, #F67D37, #FF007E);
+        }
+
+        .ant-layout .ant-layout-sider-trigger {
+            background: linear-gradient(to right, #F67D37, #FF007E);
+        }
+
+        .ant-layout .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+            background: linear-gradient(to right, #F67D37, #FF007E);
+        }
+
+        .ant-menu-submenu ant-menu-submenu-inline .ant-menu-submenu:active {
+            background-color: red;
+        }
+
+        .ant-menu-item .ant-menu-item-selected {
+            background-color: red;
+        }
+
+        .ant-menu-item .ant-menu-iten-active::before {
+            background-color: grey;
+        }
+
+        .ant-menu-dark .ant-menu-item-selected {
+            background-color: grey;
+        }
+
+        .ant-layout .ant-layout-sider-trigger {
+            border-top: 11px grey;
+        }
+
+        .ant-layout-footer {
+            background: linear-gradient(to left, #F67D37, #FF007E);
+
+        }
+        .ant-layout .ant-layout-sider{
+            background: linear-gradient(to right, #F67D37, #FF007E);
+            
+        }
+    }
+}

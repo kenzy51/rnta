@@ -1,0 +1,36 @@
+.button {
+    background: linear-gradient(to right, #F67D37, #FF007E);
+    transition-duration: .3s;
+}
+
+.button:hover {
+    box-shadow: 10px 10px 16px rgba(121, 121, 121, 0.25);
+}
+
+:global {
+
+    // .ant-input {
+    //     width: 27.3vw;
+    // }
+
+    // .ant-select {
+    //     width: 27.3vw;
+
+    // }
+
+    // .ant-select-selector {
+    //     width: 30vw;
+    // }
+
+    // .ant-select-selection-search-input {
+    //     width: 30vw;
+    // }
+
+    // .ant-select-focused {
+    //     width: 30vw;
+    // }
+
+    // .ant-form{
+    //     width: 30%;
+    // }
+}

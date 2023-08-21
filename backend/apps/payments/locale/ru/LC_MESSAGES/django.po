@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-22 12:22+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: apps/payments/apps.py:8
+#, fuzzy
+#| msgid "Payment date"
+msgid "Payments"
+msgstr "Оплата"
+
+#: apps/payments/models.py:15
+msgid "Invoice number"
+msgstr "Номер счета"
+
+#: apps/payments/models.py:20
+msgid "Legal person (Our)"
+msgstr "Юридическое лицо (наше)"
+
+#: apps/payments/models.py:30 apps/payments/models.py:90
+msgid "Project"
+msgstr "Проект"
+
+#: apps/payments/models.py:34
+msgid "Payment purpose"
+msgstr "Назначение платежа"
+
+#: apps/payments/models.py:37 apps/payments/models.py:123
+msgid "Amount"
+msgstr "Сумма"
+
+#: apps/payments/models.py:42
+msgid "Billing date"
+msgstr "Дата выставления счета"
+
+#: apps/payments/models.py:46 apps/payments/models.py:139
+msgid "Paid date"
+msgstr "Оплачен"
+
+#: apps/payments/models.py:51
+msgid "Close date"
+msgstr "Дата закрытия"
+
+#: apps/payments/models.py:56
+msgid "Comment"
+msgstr "Комментарий"
+
+#: apps/payments/models.py:61 apps/payments/models.py:152
+#, fuzzy
+#| msgid "Create date"
+msgid "Created at"
+msgstr "Дата создания"
+
+#: apps/payments/models.py:65 apps/payments/models.py:156
+msgid "Updated at"
+msgstr "Дата обновления"
+
+#: apps/payments/models.py:69 apps/payments/models.py:144
+msgid "Deleted"
+msgstr "Удален"
+
+#: apps/payments/models.py:73 apps/payments/models.py:148
+msgid "Deleted comment"
+msgstr "Комментарий к удаления"
+
+#: apps/payments/models.py:81
+msgid "Client invoice (Summary)"
+msgstr "Счет клиенту (Сводка)"
+
+#: apps/payments/models.py:82
+msgid "Client invoices (Summary)"
+msgstr "Счета клиенту (Сводка)"
+
+#: apps/payments/models.py:94
+msgid "Stock market"
+msgstr "Биржа"
+
+#: apps/payments/models.py:100
+msgid "Request month"
+msgstr "Месяц запроса"
+
+#: apps/payments/models.py:105
+msgid "Budget request"
+msgstr "Запрос бюджета"
+
+#: apps/payments/models.py:111
+msgid "Spent"
+msgstr "Потрачено"
+
+#: apps/payments/models.py:117
+msgid "Commission"
+msgstr "Комиссия"
+
+#: apps/payments/models.py:129
+msgid "Comment to project"
+msgstr "Комментарий к проекту"
+
+#: apps/payments/models.py:134
+msgid "Comment to expense"
+msgstr "Комментарий к расходу"
+
+#: apps/payments/models.py:168
+msgid "Project expense"
+msgstr "Затраты проекта"
+
+#: apps/payments/models.py:169
+msgid "Project expenses"
+msgstr "Затраты проектов"
+
+#: apps/payments/models.py:177
+msgid "Manager"
+msgstr "Менеджер"
+
+#: apps/payments/models.py:182
+msgid "Client invoice"
+msgstr "Счет клиенту"
+
+#: apps/payments/models.py:189
+msgid "Only manager can have bonuses"
+msgstr "Только менеджер может иметь бонусы"
+
+#: apps/payments/models.py:195
+msgid "Manager bonus"
+msgstr "Бонус менеджера"
+
+#: apps/payments/models.py:196
+msgid "Manager bonuses"
+msgstr "Бонусы менеджеров"
+
+#: apps/payments/resources.py:239
+#, fuzzy
+#| msgid "Project"
+msgid "Project month"
+msgstr "Проект"
+
+#: apps/payments/resources.py:241
+msgid "Bonus amount"
+msgstr "Сумма бонуса"
+
+#: apps/payments/views.py:54
+#, fuzzy
+#| msgid "Manager bonuses"
+msgid "Generate managers bonuses"
+msgstr "Бонусы менеджеров"
+
+#~ msgid "Payment date"
+#~ msgstr "Дата платежа"
+
+#~ msgid "Is paid"
+#~ msgstr "Оплачен"

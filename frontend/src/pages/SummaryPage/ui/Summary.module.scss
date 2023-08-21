@@ -1,0 +1,14 @@
+.wrapper {
+
+    :global {
+        .ant-tabs-ink-bar {
+            border-color: red !important;
+        }
+    }
+}
+
+:global {
+    .ant-button {
+        background: linear-gradient(to right, #F67D37, #FF007E);
+    }
+}
